@@ -5,17 +5,10 @@ const Schema = mongoose.Schema
 const weatherSummarySchema = new Schema({
     date: { type: Date, required: true },
     averageTemperature: Number,
+    feels_like: Number,
     maxTemperature: Number,
     minTemperature: Number,
-    dominantCondition: String,
-    hourlyData: [
-      {
-        main: String,
-        temp: Number,
-        feels_like: Number,
-        dt: Number,
-      },
-    ],
+    dominantCondition: String
   }, { timestamps: true });
   
 module.exports  = mongoose.model('WeatherSummary', weatherSummarySchema);
