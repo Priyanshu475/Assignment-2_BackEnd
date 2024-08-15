@@ -1,14 +1,21 @@
 # Assignment-2
 
-## Live at @https://weather-app-ztakakak.vercel.app/
+## Live @https://weather-app-ztakakak.vercel.app/
+![modified_image (2)](https://github.com/user-attachments/assets/1dcb0a9f-3399-486d-ad5d-ffc1d43e3ea7)
+ <br>
 
-![modified_image](https://github.com/user-attachments/assets/c5d0d00d-83b3-4bb4-a8c3-db2c2714d0e6)
+## Alert on Threshold Weather
+![image](https://github.com/user-attachments/assets/54ec2d08-a50b-4af5-a1ee-9af44000aacd)
  <br>
 
 ## Database Storage
 ![image](https://github.com/user-attachments/assets/b38ed03c-acac-47dc-afb7-24f3804d5fd8)
  <br>
-  <br>
+ 
+  ![image](https://github.com/user-attachments/assets/8eb4ccfc-013a-46a9-97c4-27057eeffed6)
+ <br>
+
+
 
 ## Tech Stacks:
 ### FrontEnd: React.JS
@@ -19,24 +26,28 @@
 
 ## Setup Instructions
 
-### Server Setup 
+### Client Setup 
+<br>
 1. Install dependencies:
+
 ```
 npm install
 ```
 <br>
 2. Set up environment variables:
-- Create a `.env` file in the root directory
+- Create a `.env` file in the client directory
 - Add the following variables (replace with your actual values):
 
   ```
-  MONGO_URI = <MONGO_URI>
-  PORT = <PORT>
-  ```
+  REACT_APP_OPEN_WEATHER_API_KEY=<URL>
+  REACT_APP_API_URL=<URL>
 
-3. Start the server
+  ```
+<br>
+3. Start the client:
+
 ```
-node server
+npm start
 ```
 <br>
 
